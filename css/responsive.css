@@ -65,6 +65,7 @@
 @media (max-width: 576px) {
     .yoga-title {
         font-size: 24px;
+        font-family: 'Aboreto', cursive;
     }
     .course-info li {
         flex-direction: column;
@@ -100,11 +101,6 @@
 @media (max-width: 576px) {
     .hero-img {
         height: 20vh;
-    }
-
-    .yoga-title {
-        font-size: 26px;
-        font-family: 'Aboreto', cursive;
     }
     .yoga-subtitle{
         font-family: 'Aboreto', cursive;
