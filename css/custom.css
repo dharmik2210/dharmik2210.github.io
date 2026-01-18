@@ -1,0 +1,391 @@
+.navbar {
+    background-color: #f7f3ef;
+    padding: 12px 0;
+}
+
+.navbar-brand img {
+    height: 71px;
+}
+
+.nav-link {
+    color: #222 !important;
+    font-weight: 500;
+    padding: 8px 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    color: #0f5132 !important;
+}
+
+.btn-book {
+    background-color: #0f5132;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-book:hover {
+    background-color: #146c43;
+    color: #fff;
+}
+
+/* ================= HERO SECTION ================= */
+.yoga-section {
+    position: relative;
+    padding: 40px 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+.yoga-subtitle {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    font-family: 'Aboreto', cursive;
+}
+
+.yoga-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: 'Aboreto', cursive;
+}
+
+/* Slider image */
+.hero-img {
+    height: 70vh;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section spacing */
+.yoga-info-section{
+    padding:30px 0;
+}
+
+/* Heading text */
+.yoga-info-heading{
+    text-align:center;
+    color:#5f8f7a;
+    font-size:18px;
+    max-width:800px;
+    margin:0 auto 40px;
+    
+}
+
+/* Green box */
+.yoga-info-box{
+    background:#3f9b7b;
+    border-radius:20px;
+    padding:40px;
+    color:#fff;
+}
+
+/* Inside image */
+.yoga-info-img{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.yoga-info-img img{
+    max-width:120px;
+    height:auto;
+}
+
+/* Text inside box */
+.yoga-info-heading{
+    font-family: 'Abhaya Libre', serif;
+    height: 94px;
+    font-size: 40px;
+    }
+.yoga-info-box p{
+    font-size:22px;
+    line-height:1.7;
+    margin:0;
+    font-family: 'Abhaya Libre', serif;
+    
+}
+.custom-hr{
+    width:60%;              /* Desktop width */
+    height:2px;             /* Thickness */
+    background-color:#7fa89a; /* Your green shade */
+    border:0;
+}
+.courses-title {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 40px;
+    color: #5f8f7a;
+}
+
+.course-card {
+    background: #3f9b7b;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+}
+
+.course-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 15px;
+}
+
+.course-card h3 {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* INFO ROWS */
+.course-info {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px;
+}
+.course-info li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.course-info .label {
+    color: #eaf6f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+.course-info .value {
+    background: #fff;
+    color: #2f6f5b;
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 13px;
+    white-space: nowrap;
+    width: 50%;
+}
+
+.rating {
+    color: #ffd700;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.course-btn {
+    display: block;
+    background: #fff;
+    color: #2f6f5b;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* ================= ELIGIBILITY SECTION ================= */
+.eligibility-section {
+    /* background: #f7f3ef; */
+    padding: 60px 0;
+    position: relative;
+}
+
+.eligibility-title {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 40px;
+    color: #5f8f7a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.eligibility-text {
+    font-family: 'Abhaya Libre', serif;
+    max-width: 900px;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #5b6f66;
+}
+
+.eligibility-box {
+    background: #3f9b7b;
+    border-radius: 18px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.eligibility-box ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.eligibility-box li {
+    font-family: 'Abhaya Libre', serif;
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 14px;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+/* bullet dot */
+.eligibility-box li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1;
+}
+
+
+/* ================= WHY CHOOSE SECTION ================= */
+.why-choose-section {
+    /* background: #f7f3ef; */
+    padding: 60px 0;
+}
+
+.why-subtitle {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    color: #7fa89a;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.why-title {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 40px;
+    color: #2f6f5b;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Image grid */
+.why-img {
+    border-radius: 18px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.why-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Fixed heights */
+.why-img-lg {
+    height: 100%;
+    min-height: 420px;
+}
+
+.why-img-sm {
+    height: 200px;
+}
+/* ================= DECORATIVE CIRCLES (FIXED) ================= */
+
+.has-circles {
+    position: relative;
+    overflow: hidden;
+}
+
+/* circle design */
+.has-circles .circle {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 2px solid rgba(127, 168, 154, 0.35);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* content always above circles */
+.has-circles > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.syllabus-section {
+    /* background: #f7f3ef; */
+    padding: 60px 0;
+}
+
+.syllabus-subtitle {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    color: #7fa89a;
+    text-align: center;
+}
+
+.syllabus-title {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 40px;
+    color: #2f6f5b;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.syllabus-text {
+    max-width: 850px;
+    margin: 0 auto 35px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.7;
+    color: #5b6f66;
+    font-family: 'Abhaya Libre', serif;
+}
+
+/* Accordion box */
+.syllabus-accordion .accordion-item {
+    border: 0;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.syllabus-accordion .accordion-button {
+    background: #3f9b7b;
+    color: #ffffff;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    padding: 14px 20px;
+}
+
+.syllabus-accordion .accordion-button:not(.collapsed) {
+    background: #2f6f5b;
+}
+
+.syllabus-accordion .accordion-button::after {
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease;
+}
+
+.syllabus-accordion .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg);
+}
+
+.syllabus-accordion .accordion-body {
+    background: #ffffff;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    color: #5b6f66;
+    line-height: 1.7;
+}
