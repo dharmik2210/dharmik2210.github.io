@@ -104,5 +104,9 @@
 
     .yoga-title {
         font-size: 26px;
+        font-family: 'Aboreto', cursive;
+    }
+    .yoga-subtitle{
+        font-family: 'Aboreto', cursive;
     }
 }
