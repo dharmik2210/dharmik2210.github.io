@@ -65,7 +65,6 @@
 @media (max-width: 576px) {
     .yoga-title {
         font-size: 24px;
-        font-family: 'Aboreto', cursive;
     }
     .course-info li {
         flex-direction: column;
@@ -100,9 +99,19 @@
 /* Mobile */
 @media (max-width: 576px) {
     .hero-img {
-        height: 20vh;
+        height: 50vh;
     }
-    .yoga-subtitle{
-        font-family: 'Aboreto', cursive;
+}
+@media (max-width: 768px) {
+    .testimonial-title {
+        font-size: 26px;
+    }
+
+    .testimonial-card {
+        padding: 20px;
+    }
+
+    .testimonial-text {
+        font-size: 14px;
     }
 }

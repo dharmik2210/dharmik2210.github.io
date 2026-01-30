@@ -45,19 +45,19 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #7a7a7a;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .yoga-title {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 40px;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 /* Slider image */
 .hero-img {
-    height: 70vh;
+    height: 80vh;
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 15px 30px rgba(0,0,0,0.1);
@@ -389,3 +389,106 @@
     color: #5b6f66;
     line-height: 1.7;
 }
+/* ================= TESTIMONIAL SLIDER ================= */
+
+.testimonial-subtitle {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    color: #7fa89a;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.testimonial-title {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 40px;
+    color: #2f6f5b;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Card */
+.testimonial-card {
+    background: #3f9b7b;
+    border-radius: 22px;
+    padding: 40px;
+    max-width: 700px;
+    color: #ffffff;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+/* Text */
+.testimonial-text {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* User */
+.testimonial-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.testimonial-user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+}
+
+.testimonial-user h5 {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+.testimonial-user span {
+    font-size: 14px;
+    color: #eaf6f2;
+}
+
+/* Dots */
+.carousel-indicators {
+    position: static;
+    margin-top: 30px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #7fa89a;
+    opacity: 0.5;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #2f6f5b;
+}
+#testimonialSlider {
+    position: relative;
+}
+
+#testimonialSlider .carousel-indicators {
+    bottom: -35px;
+}
+
+#testimonialSlider .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #7fa89a;
+}
+
+#testimonialSlider .carousel-indicators .active {
+    background-color: #2f6f5b;
+}
+
+/* ================= MOBILE ================= */
+

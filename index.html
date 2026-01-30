@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/custom.css">
 <link rel="stylesheet" href="css/responsive.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -53,8 +55,9 @@
 
 <div class="text-center">
     <div class="yoga-subtitle mb-2">
-        YOGA TEACHER TRAINING – RYT 200, RYT 300, RYT 500 IN INDIA
+        Yoga Teacher Training – Ryt 200, Ryt 300, Ryt 500 In India
     </div>
+    
     <h2 class="yoga-title">
         YOGA TEACHER TRAINING IN RISHIKESH
     </h2>
@@ -125,6 +128,88 @@
     </section>
     
     <hr class="custom-hr mx-auto my-3">
+
+ <!-- ================= TESTIMONIAL SLIDER ================= -->
+ <section class="testimonial-section has-circles">
+    <span class="circle" style="top:12%; left:-60px;"></span>
+    <span class="circle" style="bottom:18%; right:-60px;"></span>
+
+    <div class="container">
+        <p class="testimonial-subtitle">What Our Students Say</p>
+        <h2 class="testimonial-title">Student Testimonials</h2>
+
+        <div id="testimonialSlider"
+             class="carousel slide"
+             data-bs-ride="carousel"
+             data-bs-interval="4000"
+             data-bs-pause="false">
+
+            <!-- SLIDES WRAPPER (MISSING BEFORE) -->
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="testimonial-card mx-auto">
+                        <p class="testimonial-text">
+                            Joining Rishikesh Yogpeeth was a life-changing experience.
+                            The teachers are authentic, supportive, and deeply rooted
+                            in traditional yogic knowledge.
+                        </p>
+                        <div class="testimonial-user">
+                            <img src="img/course-200.jpg" alt="">
+                            <div>
+                                <h5>Emily Watson</h5>
+                                <span>RYT 200 · USA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="testimonial-card mx-auto">
+                        <p class="testimonial-text">
+                            The ashram life and discipline helped me reconnect with myself.
+                        </p>
+                        <div class="testimonial-user">
+                            <img src="img/course-200.jpg" alt="">
+                            <div>
+                                <h5>Marco Rossi</h5>
+                                <span>RYT 300 · Italy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="testimonial-card mx-auto">
+                        <p class="testimonial-text">
+                            Truly authentic yoga education. Highly recommended.
+                        </p>
+                        <div class="testimonial-user">
+                            <img src="img/course-200.jpg" alt="">
+                            <div>
+                                <h5>Sophia Müller</h5>
+                                <span>RYT 500 · Germany</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- DOTS MUST BE INSIDE CAROUSEL -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="2"></button>
+            </div>
+
+        </div>
+    </div>
+</section>
+<hr class="custom-hr mx-auto my-3">
 
     <!-- ================= YOGA COURSES SECTION ================= -->
     <section class="has-circles yoga-courses-section py-5">
