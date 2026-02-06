@@ -103,15 +103,17 @@
     }
 }
 @media (max-width: 768px) {
-    .testimonial-title {
-        font-size: 26px;
+    .testimonial-card-horizontal {
+        flex-direction: column;
+        text-align: center;
     }
 
-    .testimonial-card {
-        padding: 20px;
+    .testimonial-content {
+        text-align: center;
     }
 
-    .testimonial-text {
-        font-size: 14px;
+    .testimonial-image img {
+        width: 130px;
+        height: 130px;
     }
 }

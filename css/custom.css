@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
     background-color: #f7f3ef;
     padding: 12px 0;
@@ -490,5 +494,61 @@
     background-color: #2f6f5b;
 }
 
-/* ================= MOBILE ================= */
+/* ===== TESTIMONIAL GREEN THEME FIX ===== */
 
+.testimonial-card-horizontal {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #3f9b7b;          /* GREEN BACKGROUND */
+    border-radius: 22px;
+    padding: 40px;
+    max-width: 900px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
+
+/* IMAGE */
+.testimonial-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 14px;
+    border: 3px solid rgba(255,255,255,0.7);
+}
+
+/* CONTENT */
+.testimonial-content {
+    flex: 1;
+    text-align: left;
+}
+
+/* NAME */
+.student-name {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 22px;
+    margin-bottom: 4px;
+    color: #ffffff;
+}
+
+/* LOCATION */
+.student-place {
+    font-size: 14px;
+    color: #eaf6f2;
+}
+
+/* STARS */
+.testimonial-stars {
+    color: #ffd700;
+    font-size: 23px;
+    margin: 10px 0 14px;
+}
+
+/* TEXT */
+.testimonial-card-horizontal .testimonial-text {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #f1f9f6;
+    margin: 0;
+    text-align: left;
+}   

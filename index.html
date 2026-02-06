@@ -13,7 +13,10 @@
 
 </head>
 
-<body>
+<body  data-bs-spy="scroll"
+data-bs-target="#mainNavbar"
+data-bs-offset="100"
+tabindex="0">
 
 <!-- ================= NAVBAR ================= -->
 <nav class="navbar navbar-expand-lg">
@@ -29,22 +32,20 @@
 
 <div class="collapse navbar-collapse" id="mainNavbar">
 <ul class="navbar-nav mx-auto gap-3">
-    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-    <li class="nav-item"><a class="nav-link" href="#">Yoga Teacher Training</a></li>
-    <li class="nav-item"><a class="nav-link" href="#">Retreats</a></li>
-    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
-    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+    <li class="nav-item"><a class="nav-link" href="#eligibility">Eligibility</a></li>
+    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
 </ul>
 
-<a href="#" class="btn-book">Book now</a>
+<!-- <a href="#" class="btn-book">Book now</a> -->
 </div>
 </div>
 </nav>
 
 <!-- ================= HERO SLIDER ================= -->
-<section class=" has-circles pt-5 pb-4 text-center">
+<section id ="home" class=" has-circles pt-5 pb-4 text-center">
     <span class="circle" style="top:18%; left:0px;"></span>
     <span class="circle" style="top:15%; left:-5px; width: 200px;
     height: 200px;"></span>
@@ -149,50 +150,103 @@
 
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
-                    <div class="testimonial-card mx-auto">
-                        <p class="testimonial-text">
-                            Joining Rishikesh Yogpeeth was a life-changing experience.
-                            The teachers are authentic, supportive, and deeply rooted
-                            in traditional yogic knowledge.
-                        </p>
-                        <div class="testimonial-user">
-                            <img src="img/course-200.jpg" alt="">
-                            <div>
-                                <h5>Emily Watson</h5>
-                                <span>RYT 200 · USA</span>
-                            </div>
+                    <div class="testimonial-card-horizontal mx-auto">
+                        <div class="testimonial-image">
+                            <img src="img/course-200.jpg" alt="Student">
+                        </div>
+                    
+                        <div class="testimonial-content">
+                            <h5 class="student-name">Johnson Brandy</h5>
+                            <span class="student-place">Florida Beach</span>
+                    
+                            <div class="testimonial-stars">★★★★★</div>
+                    
+                            <p class="testimonial-text">
+                                An invaluable approach to have for the past fifteen years as much
+                                as its integrity as it floods, drinks and beautiful dining rooms.
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Slide 2 -->
                 <div class="carousel-item">
-                    <div class="testimonial-card mx-auto">
-                        <p class="testimonial-text">
-                            The ashram life and discipline helped me reconnect with myself.
-                        </p>
-                        <div class="testimonial-user">
-                            <img src="img/course-200.jpg" alt="">
-                            <div>
-                                <h5>Marco Rossi</h5>
-                                <span>RYT 300 · Italy</span>
-                            </div>
+                    <div class="testimonial-card-horizontal mx-auto">
+                        <div class="testimonial-image">
+                            <img src="img/course-200.jpg" alt="Student">
+                        </div>
+                    
+                        <div class="testimonial-content">
+                            <h5 class="student-name">Johnson Brandy</h5>
+                            <span class="student-place">Florida Beach</span>
+                    
+                            <div class="testimonial-stars">★★★★★</div>
+                    
+                            <p class="testimonial-text">
+                                An invaluable approach to have for the past fifteen years as much
+                                as its integrity as it floods, drinks and beautiful dining rooms.
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Slide 3 -->
                 <div class="carousel-item">
-                    <div class="testimonial-card mx-auto">
-                        <p class="testimonial-text">
-                            Truly authentic yoga education. Highly recommended.
-                        </p>
-                        <div class="testimonial-user">
-                            <img src="img/course-200.jpg" alt="">
-                            <div>
-                                <h5>Sophia Müller</h5>
-                                <span>RYT 500 · Germany</span>
-                            </div>
+                    <div class="testimonial-card-horizontal mx-auto">
+                        <div class="testimonial-image">
+                            <img src="img/course-200.jpg" alt="Student">
+                        </div>
+                    
+                        <div class="testimonial-content">
+                            <h5 class="student-name">Johnson Brandy</h5>
+                            <span class="student-place">Florida Beach</span>
+                    
+                            <div class="testimonial-stars">★★★★★</div>
+                    
+                            <p class="testimonial-text">
+                                An invaluable approach to have for the past fifteen years as much
+                                as its integrity as it floods, drinks and beautiful dining rooms.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-card-horizontal mx-auto">
+                        <div class="testimonial-image">
+                            <img src="img/course-200.jpg" alt="Student">
+                        </div>
+                    
+                        <div class="testimonial-content">
+                            <h5 class="student-name">Johnson Brandy</h5>
+                            <span class="student-place">Florida Beach</span>
+                    
+                            <div class="testimonial-stars">★★★★★</div>
+                    
+                            <p class="testimonial-text">
+                                An invaluable approach to have for the past fifteen years as much
+                                as its integrity as it floods, drinks and beautiful dining rooms.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-card-horizontal mx-auto">
+                        <div class="testimonial-image">
+                            <img src="img/course-200.jpg" alt="Student">
+                        </div>
+                    
+                        <div class="testimonial-content">
+                            <h5 class="student-name">Johnson Brandy</h5>
+                            <span class="student-place">Florida Beach</span>
+                    
+                            <div class="testimonial-stars">★★★★★</div>
+                    
+                            <p class="testimonial-text">
+                                An invaluable approach to have for the past fifteen years as much
+                                as its integrity as it floods, drinks and beautiful dining rooms.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -204,6 +258,8 @@
                 <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="0" class="active"></button>
                 <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="1"></button>
                 <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="4"></button>
             </div>
 
         </div>
@@ -212,7 +268,7 @@
 <hr class="custom-hr mx-auto my-3">
 
     <!-- ================= YOGA COURSES SECTION ================= -->
-    <section class="has-circles yoga-courses-section py-5">
+    <section id="courses" class="has-circles yoga-courses-section py-5">
         <span class="circle" style="top:15%; left:-70px;"></span>
         <span class="circle" style="top:13%; left:-65px; width: 200px;
         height: 200px;"></span>
@@ -289,7 +345,7 @@
         </div>
       </section>
       <hr class="custom-hr mx-auto my-3">
-      <section class="eligibility-section">
+      <section id ="eligibility" class="eligibility-section">
         <span class="bg-circle circle-md pos-top-left d-none d-md-block"></span>
 
         <div class="container">
@@ -330,7 +386,7 @@
     </section>
     <hr class="custom-hr mx-auto my-3">
     <!-- ================= WHY CHOOSE SECTION ================= -->
-<section class="why-choose-section">
+<section id="gallery" class="why-choose-section">
     <span class="bg-circle circle-sm pos-top-right d-none d-md-block"></span>
     <span class="bg-circle circle-md pos-bottom-left d-none d-lg-block"></span>
     <div class="container">
@@ -377,7 +433,7 @@
 </section> 
 <hr class="custom-hr mx-auto my-3">
 
-<section class="syllabus-section">
+<section id="faq" class="syllabus-section">
     <div class="container">
 
         <p class="syllabus-subtitle">Yoga Alliance Standards</p>
